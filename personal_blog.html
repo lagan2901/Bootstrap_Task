@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+
+   
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="personal_blog.css">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">MyBlog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#posts">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Bootstrap/images/carousel_travel.jpg" class="d-block w-100" alt="Travel">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Travel Adventures</h5>
+                    <p>Explore beautiful places around the world.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../Bootstrap/images/carousel_food.jpg" class="d-block w-100" alt="Food">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Delicious Recipes</h5>
+                    <p>Discover mouth-watering recipes and cooking tips.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../Bootstrap/images/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg" class="d-block w-100" alt="Wardrobe Essentials">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Wardrobe Essentials</h5>
+                    <p>Essential pieces that every wardrobe needs for effortless style and versatility.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    
+    <section id="about" class="text-center py-5 bg-light">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin.</p>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <div id="posts" class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 border-dark rounded-3 shadow-sm">
+                    <img src="../Bootstrap/images/lesly-juarez-DFtjXYd5Pto-unsplash.jpg" class="card-img-top" alt="Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">A Beginner’s Guide to Mindfulness</h5>
+                        <p class="card-text">Keeping your mind healthy is the key to everything.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 border-dark rounded-3 shadow-sm">
+                    <img src="../Bootstrap/images/blog_img2.png" class="card-img-top" alt="Post 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Healthy Lifestyle</h5>
+                        <p class="card-text">Health is wealth and eating right should be the first priority.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 border-dark rounded-3 shadow-sm">
+                    <img src="../Bootstrap/images/blog_img3.png" class="card-img-top" alt="Post 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Social Side</h5>
+                        <p class="card-text">This helps you to make new connections, and you get to learn about new things.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center py-5 bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control form-control-sm" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control form-control-sm" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control form-control-sm" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0; 
+}
+
+.carousel {
+    position: relative;
+    margin-top: 0; 
+}
+
+.navbar {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+}
+
+.navbar .navbar-brand {
+    margin-left: 1rem; 
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto; 
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #ffd700;
+}
+
+.carousel-inner img {
+    height: 650px; 
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+#contact .container{
+    /* background: linear-gradient(to right, #a079c9, #95d488); 
+    color: white; */
+    background-image: url("../Bootstrap/images/contact2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact .form-control-sm {
+   
+    max-width: 400px; 
+    margin: 0 auto;  
+}
